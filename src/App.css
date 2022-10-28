@@ -1,0 +1,68 @@
+/* Navbar */
+.navbar {
+  border-bottom: 1px solid #2222 !important;
+  box-shadow: none !important;
+  background-color: #fff !important;
+  color: "#000" !important;
+}
+.nav-btn {
+  display: flex;
+  gap: 0.5em;
+  border: 1px solid #2222 !important;
+  border-radius: 100vmax !important;
+  padding: 0.4em 0.7em !important;
+}
+
+/* Banners */
+.banner-container {
+  min-width: 500px;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 1em;
+  position: relative;
+  overflow: hidden;
+  padding: 1.5em;
+  margin-right: 1em;
+}
+.banner-txt-container {
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100%;
+}
+.banner-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  object-fit: cover;
+}
+.banner-btn {
+  background-color: #fff !important;
+  border-radius: 10px !important;
+  padding: 0.4em 1em !important;
+  text-transform: inherit !important;
+}
+.inner-carousel {
+  display: flex !important;
+}
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+  margin-top: 1.5em;
+  padding-left: 3.5em;
+}
+
+/* responsiveness */
+@media (max-width: 370px) {
+    .banner-container {
+        min-width: 200px;
+        height: 300px;
+        padding: 20px;
+      }
+      .carousel {
+        padding-left: 1em;
+      }
+}
