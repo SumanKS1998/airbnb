@@ -7,6 +7,13 @@ Instruction for local installation
 
 Clone the repository in your local machine 
 
+```bash
+
+  npm clone https://github.com/SumanKS1998/airbnb.git 
+
+
+```
+
 Install the dependencies of the project with npm
 
 ```bash
