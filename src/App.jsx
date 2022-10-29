@@ -6,6 +6,7 @@ import Plans from "./components/Plans/Plans";
 function App() {
   return (
     <>
+    
       <Navbar />
       <Banners />
       <Plans/>
