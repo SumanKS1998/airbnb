@@ -1,4 +1,4 @@
-/* Navbar */
+/* ===================Navbar=================== */
 .navbar {
   border-bottom: 1px solid #2222 !important;
   box-shadow: none !important;
@@ -13,7 +13,7 @@
   padding: 0.4em 0.7em !important;
 }
 
-/* Banners */
+/* ===================Banners=================== */
 .banner-container {
   min-width: 500px;
   height: 280px;
@@ -52,17 +52,51 @@
   cursor: grab;
   overflow: hidden;
   margin-top: 1.5em;
-  padding-left: 3.5em;
+  padding-left: 3.8em;
+}
+/* ===================Banner Chip Container=================== */
+.banner-chip-carousel {
+  cursor: grab;
+  overflow: hidden;
+}
+.banner-chip-container {
+  display: flex;
+  gap: 1em;
+}
+
+/* ===================Plans=================== */
+.plans-carousel {
+  cursor: grab;
+  overflow: hidden;
+  padding-left: 3.6em;
+}
+.plans-card-container {
+  min-width: 170px;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-right: 16px;
+  position: relative;
+  cursor: pointer;
+}
+.plans-heart-icon {
+  position: absolute !important;
+  color: #fff !important;
+  top: 5px;
+  right: 5px;
 }
 
 /* responsiveness */
-@media (max-width: 370px) {
-    .banner-container {
-        min-width: 200px;
-        height: 300px;
-        padding: 20px;
-      }
-      .carousel {
-        padding-left: 1em;
-      }
+@media (min-width: 340px) and (max-width: 900px) {
+  .banner-container {
+    min-width: 200px;
+    height: 300px;
+    padding: 20px;
+  }
+  .carousel,
+  .plans-carousel {
+    padding-left: 1em;
+  }
 }

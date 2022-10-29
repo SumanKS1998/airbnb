@@ -15,8 +15,8 @@ const Banners = () => {
   }, []);
 
   return (
-    <>
-      <Container sx={{ mt: 3 }}>
+    <Box sx={{ bgcolor: { xs: "#ebebeb", md: "#fff" }, py: 3 }}>
+      <Container>
         <Typography variant="h4" fontWeight="medium" color="primary.main">
           New this week
         </Typography>
@@ -67,7 +67,7 @@ const Banners = () => {
       <Container sx={{ display: { xs: "none", md: "block" } }}>
         <BannerChips />
       </Container>
-    </>
+    </Box>
   );
 };
 

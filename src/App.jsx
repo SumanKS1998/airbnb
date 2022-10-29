@@ -1,13 +1,14 @@
 import Banners from "./components/Banners/Banners";
 import Navbar from "./components/Navbar/Navbar";
-// import "~slick-carousel/slick/slick.css"; 
-// import "~slick-carousel/slick/slick-theme.css";
+import Plans from "./components/Plans/Plans";
+ 
 
 function App() {
   return (
     <>
       <Navbar />
       <Banners />
+      <Plans/>
     </>
   );
 }
